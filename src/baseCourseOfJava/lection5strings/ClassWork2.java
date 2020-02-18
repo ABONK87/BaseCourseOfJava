@@ -1,4 +1,4 @@
-package BaseCourseOfJava.lection5strings;
+package baseCourseOfJava.lection5strings;
 
 public class ClassWork2 {
     public static void main(String[] args) {
