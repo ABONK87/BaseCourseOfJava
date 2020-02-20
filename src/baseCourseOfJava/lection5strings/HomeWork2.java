@@ -1,7 +1,7 @@
 package baseCourseOfJava.lection5strings;
 
-public class ClassWork2 {
-    public static void main(String[] args) {
+public class HomeWork2 {
+    public static void main(String[] args) {//Имеется строка с текстом. Подсчитать количество слов в тексте
         String str = "  Зима без, cнега! И мороза and!";
         String str1 = str.trim();
         int num = 0;

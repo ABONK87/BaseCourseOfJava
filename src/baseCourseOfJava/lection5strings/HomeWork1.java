@@ -1,7 +1,7 @@
 package baseCourseOfJava.lection5strings;
 
-public class ClassWork1 {
-    public static void main(String[] args) {
+public class HomeWork1 {
+    public static void main(String[] args) {//Найти в строке не только запятые, но и другие знаки препинания. Подсчитать общее их количество 
         String str = "Тестовая,.?; строка,!!!!! с несколькими,. ,- запятыми123456";
         int x = 0;
         for (int i = 0; i < str.length(); i++) {
