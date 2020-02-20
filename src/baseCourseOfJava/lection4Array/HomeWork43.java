@@ -2,8 +2,8 @@ package baseCourseOfJava.lection4Array;
 
 import java.util.Scanner;
 
-public class HomeWork41 {
-    public static void main(String[] args) {//Повернуть матрицу на 90 градусов против часовой стрелки
+public class HomeWork43 {
+    public static void main(String[] args) {//Повернуть матрицу на 270 градусов против часовой стрелки
         System.out.println("Введите размер матрицы:");
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
@@ -24,10 +24,10 @@ public class HomeWork41 {
         for (int i = 0; i < arr.length / 2; i++) {
             for (int j = i; j < arr[i].length - 1 - i; j++) {
                 tmp = arr[i][j];
-                arr[i][j] = arr[j][a - 1 - i];
-                arr[j][a - 1 - i] = arr[a - 1 - i][a - 1 - j];
-                arr[a - 1 - i][a - 1 - j] = arr[a - 1 - j][i];
-                arr[a - 1 - j][i] = tmp;
+                arr[i][j] = arr[arr.length - 1 - j][i];
+                arr[arr.length - 1 - j][i] = arr[arr.length - 1 - i][arr.length - 1 - j];
+                arr[arr.length - 1 - i][arr.length - 1 - j] = arr[j][arr.length - 1 - i];
+                arr[j][arr.length - 1 - i] = tmp;
             }
         }
         System.out.println("Перевернутая матрица");
