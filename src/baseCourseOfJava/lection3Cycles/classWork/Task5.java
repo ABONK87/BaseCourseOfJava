@@ -12,3 +12,4 @@ public class Task5 {
         }
     }
 }
+//http://192.168.37.116:8888/TestComp.php?t=3
