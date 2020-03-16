@@ -1,10 +1,4 @@
-package baseCourseOfJava.lection9collections.HomeWork2;
-
-import org.w3c.dom.ls.LSOutput;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+package baseCourseOfJava.lection10.HomeWork2;
 
 public class Main {
     public static void main(String[] args) {

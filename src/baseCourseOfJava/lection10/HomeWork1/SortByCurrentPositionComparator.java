@@ -1,6 +1,5 @@
-package baseCourseOfJava.lection9collections.HomeWork1;
+package baseCourseOfJava.lection10.HomeWork1;
 
-import java.util.ArrayList;
 import java.util.Comparator;
 
 public class SortByCurrentPositionComparator implements Comparator<Car> {

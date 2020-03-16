@@ -1,4 +1,4 @@
-package baseCourseOfJava.lection9collections.HomeWork1;
+package baseCourseOfJava.lection10.HomeWork1;
 
 import java.util.*;
 

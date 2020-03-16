@@ -1,4 +1,4 @@
-package baseCourseOfJava.lection9collections.HomeWork2;
+package baseCourseOfJava.lection10.HomeWork2;
 
 import java.util.ArrayList;
 import java.util.Iterator;

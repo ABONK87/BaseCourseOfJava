@@ -1,6 +1,4 @@
-package baseCourseOfJava.lection9collections.HomeWork2;
-
-import baseCourseOfJava.lection9collections.HomeWork1.Car;
+package baseCourseOfJava.lection10.HomeWork2;
 
 import java.util.Comparator;
 

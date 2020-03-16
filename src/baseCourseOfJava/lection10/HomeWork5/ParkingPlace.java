@@ -1,4 +1,4 @@
-package baseCourseOfJava.lection9collections.HomeWork5;
+package baseCourseOfJava.lection10.HomeWork5;
 
 public class ParkingPlace {
 
