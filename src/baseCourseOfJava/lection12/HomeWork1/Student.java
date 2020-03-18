@@ -8,15 +8,15 @@ public class Student implements Comparable<Student> {
 
     private Specialty specialty;
 
-    private int course;
+    private Course course;
 
-    public Student(String name, Specialty specialty, int course) {
+    public Student(String name, Specialty specialty, Course course) {
         this.name = name;
         this.specialty = specialty;
         this.course = course;
     }
 
-    public boolean isCourse(int i) {
+    public boolean isCourse(Course i) {
         return i == getCourse();
     }
 
@@ -45,11 +45,11 @@ public class Student implements Comparable<Student> {
         this.specialty = specialty;
     }
 
-    public int getCourse() {
+    public Course getCourse() {
         return course;
     }
 
-    public void setCourse(int course) {
+    public void setCourse(Course course) {
         this.course = course;
     }
 
