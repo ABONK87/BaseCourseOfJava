@@ -6,11 +6,11 @@ public class Student implements Comparable<Student> {
 
     private String name;
 
-    private String specialty;
+    private Specialty specialty;
 
     private int course;
 
-    public Student(String name, String specialty, int course) {
+    public Student(String name, Specialty specialty, int course) {
         this.name = name;
         this.specialty = specialty;
         this.course = course;
@@ -37,11 +37,11 @@ public class Student implements Comparable<Student> {
         this.name = name;
     }
 
-    public String getSpecialty() {
+    public Specialty getSpecialty() {
         return specialty;
     }
 
-    public void setSpecialty(String specialty) {
+    public void setSpecialty(Specialty specialty) {
         this.specialty = specialty;
     }
 
