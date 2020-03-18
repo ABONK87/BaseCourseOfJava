@@ -1,7 +1,9 @@
 package baseCourseOfJava.lection12.HomeWork1;
 
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 public class ManageStudents {
@@ -25,7 +27,7 @@ public class ManageStudents {
     }
 
     public static void printSpecialty(List<Student> students) {
-        students.stream().map(Student::getSpecialty).collect(Collectors.toSet()).stream().sorted().forEach(System.out::println);
+        students.stream().map(Student::getSpecialty).collect(Collectors.toSet()).forEach(System.out::println);
     }
 
     public static void printCountBySpecialty(List<Student> students, Specialty specialty) {
