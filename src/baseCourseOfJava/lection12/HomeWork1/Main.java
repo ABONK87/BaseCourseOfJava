@@ -22,7 +22,7 @@ public class Main {
         List<Student> firstCourse = groupByCourse(students, 1);
         printSpecialty(students);
         printCountBySpecialty(students, "Физика");
-        groupBySpecialtyThenGroupByCourse(students).stream().forEach(System.out::println);
+        groupBySpecialtyThenGroupByCourse(students).forEach(System.out::println);
         System.out.println(checkStudentsByCourseExceptSpecialty(students, 3, "физика"));
 
 
@@ -34,7 +34,7 @@ public class Main {
     }
 
     public static void printSpecialty(List<Student> students) {
-        students.stream().map(Student::getSpecialty).sorted().forEach(System.out::println);
+        students.stream().map(Student::getSpecialty).collect(Collectors.toSet()).stream().sorted().forEach(System.out::println);
     }
 
     public static void printCountBySpecialty(List<Student> students, String specialty) {
