@@ -25,8 +25,5 @@ public class Main {
         ManageStudents.printCountBySpecialty(students, Specialty.PHYSICS);
         ManageStudents.groupBySpecialtyThenGroupByCourse(students).forEach(System.out::println);
         System.out.println(ManageStudents.checkStudentsByCourseExceptSpecialty(students, Course.THIRD, Specialty.PHYSICS));
-
     }
-
-
 }

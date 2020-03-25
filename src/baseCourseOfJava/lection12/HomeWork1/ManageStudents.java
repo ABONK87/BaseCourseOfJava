@@ -39,7 +39,7 @@ public class ManageStudents {
     }
 
     public static boolean checkStudentsByCourseExceptSpecialty(List<Student> students, Course c, Specialty exceptSpecialty) {
-        int a = (int) students.stream().filter(s -> s.getCourse().equals(c)).filter(s -> !s.getSpecialty().equals(exceptSpecialty)).count();
+        double a = students.stream().filter(s -> s.getCourse().equals(c)).filter(s -> !s.getSpecialty().equals(exceptSpecialty)).count();
         return a != 0;
     }
 }
